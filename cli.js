@@ -30,7 +30,7 @@ program.version('1.0.0');
 */
 
 program
-  .command('rucli')
+  //.command('rucli') - do đãi khai báo trong package->bin nên bỏ cái này đi chứ ko sẽ phải nhập là npx rucli rucli enjs
   .description('Làm trò mèo cho nó màu mè á mà, chứ thực ra là chạy file nodejs chứ có gì đâu')
   .argument('<argument>', 'Giả dụ chạy mã hóa file Js')
   .option('-i, --input <inputPath>', 'File dữ liệu đầu vào')
