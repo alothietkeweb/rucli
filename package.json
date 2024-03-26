@@ -1,0 +1,20 @@
+{
+  "name": "rucli",
+  "version": "1.0.0",
+  "description": "A simple CLI built with Commander",
+  "bin": {
+    "rucli": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {  
+    "commander": "^12.0.0"  
+  },
+  "devDependencies": {
+    "commander": "^12.0.0" 
+  }
+}
